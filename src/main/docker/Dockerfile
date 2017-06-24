@@ -1,5 +1,4 @@
 FROM frolvlad/alpine-oraclejdk8:slim
-VOLUME /tmp
 ADD cls-config-service-0.0.1-SNAPSHOT.jar cls-config-service-0.0.1-SNAPSHOT.jar
 RUN sh -c 'touch /cls-config-service-0.0.1-SNAPSHOT.jar'
 ENV JAVA_OPTS=""
